@@ -1,0 +1,28 @@
+Source: node-assert-plus
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Saurabh Agrawal <saurabhagrawal1483@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+ , node-tape <!nocheck>
+ , dh-sequence-nodejs
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-assert-plus
+Vcs-Git: https://salsa.debian.org/js-team/node-assert-plus.git
+Homepage: https://github.com/mcavage/node-assert-plus
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-assert-plus
+Architecture: all
+Depends: ${misc:Depends}
+ , nodejs
+Multi-Arch: foreign
+Description: small wrapper over nodejs' assert module with two extra features
+ This library is a super small wrapper over node's assert module that has two
+ things:
+ (1) the ability to disable assertions with the environment variable
+ NODE_NDEBUG, and
+ (2) some API wrappers for argument testing. Like assert.string(myArg, 'myArg')
+ .
+ Node.js is an event-based server-side JavaScript engine.

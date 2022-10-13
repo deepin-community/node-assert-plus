@@ -1,0 +1,47 @@
+node-assert-plus (1.0.0-3) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + node-assert-plus: Add Multi-Arch: foreign.
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+
+ -- Yadd <yadd@debian.org>  Thu, 04 Nov 2021 15:53:45 +0100
+
+node-assert-plus (1.0.0-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Use pkg-js-tools auto install
+  * Enable upstream test using tape
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 19 Feb 2020 14:27:10 +0100
+
+node-assert-plus (1.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #850139)
+
+ -- Saurabh Agrawal <saurabhagrawal1483@gmail.com>  Wed, 04 Jan 2017 10:27:35 +0000

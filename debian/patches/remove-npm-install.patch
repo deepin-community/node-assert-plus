@@ -1,0 +1,13 @@
+Description: Remove npm install
+ Removed npm-install
+--- a/Makefile
++++ b/Makefile
+@@ -22,7 +22,7 @@
+ 
+ .PHONY: install
+ install:
+-	$(NPM) install
++#	$(NPM) install
+ 
+ .PHONY: clean
+ clean:

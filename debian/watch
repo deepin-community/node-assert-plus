@@ -1,0 +1,5 @@
+version=4
+opts=\
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-assert-plus-$1/ \
+ https://github.com/mcavage/node-assert-plus/tags .*/archive/.*/v?([\d\.]+).tar.gz
